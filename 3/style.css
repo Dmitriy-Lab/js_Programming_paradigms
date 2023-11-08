@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.cage {
+  margin: 30px auto;
+  width: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.win {
+  text-align: center;
+  font-weight: bold;
+}
+
+.btnBox {
+  width: 75px;
+  margin: 10px auto;
+}
+
+.restart {
+  padding: 5px 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.field {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+.field:disabled {
+  background-color: inherit;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
